@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black" >
+    
+    <Button
+        android:id="@+id/menu_spill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/startgame"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:onClick="onMenuClick" />
+    
+    <Button
+        android:id="@+id/menu_spillregler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="@string/showrules"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:onClick="onMenuClick" />
+
+    <Button
+        android:id="@+id/menu_avslutt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:text="@string/exitgame"
+        android:onClick="onMenuClick" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/black"
+    tools:context=".Hangman" >
+
+    <TextView
+        android:id="@+id/regleroverskrift"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/rules_title"
+		android:textColor="@color/white"
+		android:gravity="center"
+		android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/regler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regleroverskrift"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:text="@string/rules"
+        android:textColor="@color/white" 
+        android:textSize="20sp"/>
+</RelativeLayout>

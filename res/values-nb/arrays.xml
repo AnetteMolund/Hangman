@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_word">
+        <item>SOMMERFERIE</item>
+        <item>LEKSER</item>
+        <item>FRIMINUTT</item>
+        <item>KLASSEKAMERAT</item>
+        <item>SKOLEBØKER</item>
+        <item>BIBLIOTEK</item>
+        <item>MATPAKKE</item>
+        <item>LÆRERINNE</item>
+        <item>VASKEDAME</item>
+        <item>RAMPESTREKER</item>
+        <item>RYGGSEKK</item>
+        <item>GYMBAG</item>
+        <item>MUSIKKTIME</item>
+        <item>GLOBUS</item>
+        <item>BLYANT</item>
+    </string-array>
+</resources>

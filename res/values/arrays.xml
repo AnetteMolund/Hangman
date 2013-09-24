@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_word">
+        <item>VACATION</item>
+        <item>HOMEWORK</item>
+        <item>PLAYTIME</item>
+        <item>CLASSMATE</item>
+        <item>BOOKS</item>
+        <item>LIBARY</item>
+        <item>LUNCH</item>
+        <item>TEACHER</item>
+        <item>LAUNDRESS</item>
+        <item>ROGUERY</item>
+        <item>RUCKSACK</item>
+        <item>GYMBAG</item>
+        <item>MUSIC</item>
+        <item>GLOBUS</item>
+        <item>PENCIL</item>
+    </string-array>
+</resources>
